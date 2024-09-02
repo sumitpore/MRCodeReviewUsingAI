@@ -1,5 +1,7 @@
 # AI-Powered Code Reviewer
 
+**READ LICENSE BEFORE INSTALLING AND RUNNING THE PROJECT.**
+
 ## Introduction
 The AI-Powered Code Reviewer is a tool that uses natural language processing and machine learning to provide intelligent code reviews for Merge Requests (MRs) in a GitHub repository. It analyzes the code changes, considers the relevant context from the codebase, and generates detailed feedback on potential issues, code quality, and areas for improvement.
 
