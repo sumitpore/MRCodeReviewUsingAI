@@ -40,6 +40,25 @@ The code relies on the vector database (Chroma) to store and query relevant cont
    mkdir chroma_db
    ```
 
+## Installing Ollama and Pulling Required Models
+
+1. **Install Ollama**:
+   Ollama is required to run LLM models locally. You can install it by following the instructions on the [Ollama installation page](https://github.com/ollama/ollama/blob/main/README.md#ollama).
+
+2. **Pull the Llama 3.1 Model**:
+   After installing Ollama, pull the `llama3.1` model by running the following command:
+   ```
+   ollama pull llama3.1
+   ```
+
+3. **Pull the Chroma Embedding Model**:
+   Pull the `chroma/all-minilm-l6-v2-f32` model required for embeddings:
+   ```
+   ollama pull chroma/all-minilm-l6-v2-f32
+   ```
+
+   Ensure both models are successfully pulled before proceeding with the usage of the AI-Powered Code Reviewer.
+
 ## Usage
 
 1. Run the code reviewer:
