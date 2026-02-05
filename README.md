@@ -5,6 +5,8 @@
 ## Introduction
 The AI-Powered Code Reviewer is a tool that uses natural language processing and machine learning to provide intelligent code reviews for Merge Requests (MRs) in a GitHub repository. It analyzes the code changes, considers the relevant context from the codebase, and generates detailed feedback on potential issues, code quality, and areas for improvement.
 
+<img width="708" height="661" alt="Working-Of-MRCodeReviewUsingAI" src="https://github.com/user-attachments/assets/1a7f79fa-43c2-4e79-8ab1-750fb784af32" />
+
 ## Technologies Used
 The project utilizes the following technologies:
 
@@ -91,6 +93,7 @@ Below is the list of all accepted arguments for `main.py`:
 | `--additional_context` | Path to an additional file or directory for embedding context during the review process.       | No       | None          |
 
 To pass these arguments, use the corresponding flags followed by the appropriate values when running `main.py`.
+
 
 ## Features
 - Automatically fetches the latest open Merge Request or a specific MR for review.
